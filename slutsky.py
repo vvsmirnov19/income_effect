@@ -1,1 +1,5 @@
-import formulas
+import sympy as sp
+
+
+def slutsky():
+    pass
