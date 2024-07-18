@@ -1,5 +1,6 @@
 import sympy as sp
+from decomposition import Decomposition
 
 
-def slutsky():
+class Slutsky(Decomposition):
     pass

@@ -1,0 +1,1 @@
+# Hicks and Slutsky decompositions solver
