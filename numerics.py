@@ -1,7 +1,7 @@
 import sympy as sp
 
 
-class Numerics():
+class Numerics:
 
     def get_budget(self):
         self.budget = int(input(
@@ -34,8 +34,8 @@ class Numerics():
                 )
         )
 
-    def get_utility(self):
+    def get_utility_function(self):
         str_expr = input(
-            'Enter untility expression with "x" and "y": '
+            'Enter utility expression with "x" and "y": '
             )
-        self.utility = sp.sympify(str_expr)
+        self.utility_function = sp.sympify(str_expr)
